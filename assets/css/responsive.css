@@ -16,16 +16,25 @@
   }
 }
 @media screen and (max-width: 1000px) {
+  .aviable-test {
+    width: 33.333%;
+  }
 }
 @media screen and (max-width: 900px) {
 }
 @media screen and (max-width: 800px) {
+  .aviable-test {
+    width: 50%;
+  }
 }
 @media screen and (max-width: 700px) {
 }
 @media screen and (max-width: 600px) {
 }
 @media screen and (max-width: 500px) {
+  .aviable-test {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 450px) {
   .form-inputs {
