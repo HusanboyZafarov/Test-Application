@@ -1,14 +1,18 @@
 @media screen and (max-width: 1100px) {
   :root {
-    --color-main: #3f55fa;
-    --color-main-gr: linear-gradient(to bottom, #3f55fa 0%, #1b34f1 100%);
+    --color-main: #2a3342;
+    --color-main-gr: linear-gradient(to bottom, #2a3342 0%, #181d25 100%);
     --color-dark: #2a3342;
     --color-warning: #fed430;
     --color-success: #52b788;
     --color-error: #ef233c;
     --color-white: #ffffff;
-    --color-gray: #a4a4a4;
+    --color-light-white: #f7f7f7;
+    --color-gray: #c2c2c2;
     --color-light-gray: #f4f4f4;
+
+    --shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+      rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
   }
 }
 @media screen and (max-width: 1000px) {
