@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+
     <link rel="manifest" href="/manifest.json" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -58,51 +59,54 @@
       href="https://robocode-front-end.netlify.app/assets/imgs/logo-icon.svg"
     />
 
+    <!-- Public links -->
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.7.2/css/all.css"
+    />
+
     <!-- Local links -->
 
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/responsive.css" />
-    <title>RoboTest - O‘z darajangizni aniqlang!</title>
+    <title>RoboTest - Test - JavaScript</title>
   </head>
   <body>
     <main>
-      <div class="greeting">
+      <div class="test-hero">
         <div class="section-wrapper">
+          <div class="time-counter"></div>
           <div class="container">
-            <div class="greeting-wrapper">
-              <form action="" class="greeting-form">
-                <div class="form-head">
-                  <img
-                    class="greeting-logo"
-                    src="./assets/image/logo-icon.svg"
-                    alt=""
-                  />
-                  <h1 class="greeting-heading">Ro'yxatdan o'tish</h1>
-                  <p class="greeting-text">
-                    <spec>Robocode</spec> bilan o'z bilmingizni sinang!
-                  </p>
+            <form action="" class="test-wrapper">
+              <div class="test-heading">
+                <h1>JavaScript</h1>
+                <div class="test-settings">
+                  <span class="test-time-decrease">
+                    <i class="fa-solid fa-flag"></i>
+                  </span>
+                  <span class="test-time-decrease time">15:00</span>
                 </div>
-
-                <div class="form-inputs">
-                  <div class="form-input">
-                    <label for="fullname">Ism va Familiya</label>
-                    <input id="fullname" type="text" />
-                  </div>
-                  <div class="form-input">
-                    <label for="phone_number">Telefon raqam</label>
-
-                    <div class="form-input-wrapper">
-                      <span>+998</span>
-                      <input id="phone_number" type="text" />
+              </div>
+              <div class="test-body">
+                <div class="tests">
+                  <div class="test" id="question_1">
+                    <div class="test-title"></div>
+                    <div class="test-options">
+                      <select name="" id=""></select>
+                      <div class="test-option"></div>
+                      <div class="test-option"></div>
+                      <div class="test-option"></div>
+                      <div class="test-option"></div>
                     </div>
                   </div>
-                  <button class="form-submit">Ro'yxatdan o'tish</button>
                 </div>
-              </form>
-            </div>
+                <div class="test-numbers"></div>
+              </div>
+            </form>
           </div>
         </div>
       </div>
     </main>
-  </body> 
+  </body>
 </html>

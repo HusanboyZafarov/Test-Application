@@ -1,11 +1,11 @@
 @font-face {
-  font-family: "system-ui-b";
-  src: url("../fonts/Poppins-Bold.ttf");
+  font-family: 'system-ui-b';
+  src: url('../fonts/Poppins-Bold.ttf');
 }
 
 @font-face {
-  font-family: "system-ui";
-  src: url("../fonts/Poppins-Medium.ttf");
+  font-family: 'system-ui';
+  src: url('../fonts/Poppins-Medium.ttf');
 }
 
 :root {
@@ -30,7 +30,7 @@
 }
 
 * {
-  font-family: "system-ui";
+  font-family: 'system-ui';
 
   margin: 0;
   padding: 0;
@@ -84,7 +84,7 @@
 }
 
 .form-head .greeting-heading {
-  font-family: "system-ui-b";
+  font-family: 'system-ui-b';
 
   font-size: 28px;
 
@@ -187,7 +187,7 @@
 }
 
 .form-input-wrapper span::before {
-  content: "";
+  content: '';
 
   position: absolute;
   display: block;
@@ -250,14 +250,14 @@
 
 .hero-heading {
   font-size: 26px;
-  font-family: "system-ui-b";
+  font-family: 'system-ui-b';
   color: var(--color-dark);
   position: relative;
   margin-left: 30px;
 }
 
 .hero-heading::before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   height: 80%;
@@ -338,7 +338,7 @@
 }
 
 .progress-line::before {
-  content: "";
+  content: '';
   display: block;
 
   background: inherit;
@@ -379,4 +379,53 @@
 
 .progress-wrapper.perfect .progress-percent {
   color: var(--color-success);
+}
+
+.time-counter {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+  height: 10px;
+
+  background: var(--color-main-gr);
+}
+
+.test-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.test-heading h1 {
+  color: var(--color-main);
+  font-size: 40px;
+  font-family: 'system-ui-b';
+}
+
+.test-wrapper {
+  padding-top: 20px;
+}
+
+.test-time-decrease {
+  font-size: 20px;
+  padding: 10px;
+  background: var(--color-main-gr);
+  display: flex;
+  width: 58px;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-white);
+  border-radius: 12px;
+  border: 4px solid var(--color-main);
+  cursor: pointer;
+}
+
+.test-time-decrease.time {
+  width: 130px;
+}
+
+.test-settings {
+  display: flex;
+  gap: 10px;
 }
